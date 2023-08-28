@@ -163,6 +163,23 @@ table {
     border-bottom: 2px solid rgba(87, 85, 85, 0.86);
 }
 
+/* Form */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: wheat;
+}
+
+form input {
+    max-width: 20rem;
+}
+
+.seller {
+    font-size: 2rem;
+}
+
 /* Footer */
 
 footer {
@@ -212,5 +229,15 @@ footer {
 
     nav .club {
         text-align: center;
+    }
+
+    .box {
+        margin-bottom: 0.5rem;
+    }
+
+    .main-nav {
+        display: flex;
+        justify-content: center;
+
     }
 }
