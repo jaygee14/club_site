@@ -68,6 +68,7 @@ button:hover {
     background-color: white;
     width: 75%;
     margin: auto auto;
+    display: none;
 }
 
 .sign-up-sheet h2, #top-form{

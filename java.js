@@ -1,10 +1,10 @@
-sign = document.getElementsByClassName('signUp')
-tab = document.getElementsByClassName('sign-up-sheet')
+sign = document.getElementsByClassName('signUp')[0];
+tab = document.getElementsByClassName('sign-up-sheet')[0];
 
 function showInfo() {
-    tab.style.display = 'none';
+    tab.style.display = 'block';
 };
 
-sign.onclick = showInfo;
+sign.addEventListener("click", showInfo)
 
 
